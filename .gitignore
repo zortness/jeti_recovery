@@ -1,0 +1,6 @@
+data/
+extracted/
+.venv/
+__pycache__
+*_plan.md
+*.hexproj

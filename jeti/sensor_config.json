@@ -1,0 +1,97 @@
+{
+  "51a8a251": {
+    "name": "MUI-30_01",
+    "expected_length": 15,
+    "fields": [
+      {
+        "name": "Voltage_V",
+        "offset": 2,
+        "length": 1,
+        "type": "uint8",
+        "scale": 0.1
+      },
+      {
+        "name": "Current_A",
+        "offset": 5,
+        "length": 1,
+        "type": "uint8",
+        "scale": 0.1
+      },
+      {
+        "name": "Capacity_mAh",
+        "offset": 8,
+        "length": 2,
+        "type": "uint16_le",
+        "scale": 1.0
+      },
+      {
+        "name": "RunTime_Mins",
+        "offset": 12,
+        "length": 2,
+        "type": "uint16_le",
+        "scale": 1.0
+      }
+    ]
+  },
+  "51a86f45": {
+    "name": "MUI-30_02",
+    "expected_length": 15,
+    "fields": [
+      {
+        "name": "Voltage_V",
+        "offset": 2,
+        "length": 1,
+        "type": "uint8",
+        "scale": 0.1
+      },
+      {
+        "name": "Current_A",
+        "offset": 5,
+        "length": 1,
+        "type": "uint8",
+        "scale": 0.1
+      },
+      {
+        "name": "Capacity_mAh",
+        "offset": 8,
+        "length": 2,
+        "type": "uint16_le",
+        "scale": 1.0
+      },
+      {
+        "name": "RunTime_Mins",
+        "offset": 12,
+        "length": 2,
+        "type": "uint16_le",
+        "scale": 1.0
+      }
+    ]
+  },
+  "e2a66f54": {
+    "name": "R5-L_01",
+    "expected_length": 8,
+    "fields": [
+      {
+        "name": "Voltage_V",
+        "offset": 2,
+        "length": 1,
+        "type": "uint8",
+        "scale": 0.1
+      },
+      {
+        "name": "Antenna_1_Strength",
+        "offset": 5,
+        "length": 1,
+        "type": "uint8",
+        "scale": 1.0
+      },
+      {
+        "name": "Antenna_2_Strength",
+        "offset": 7,
+        "length": 1,
+        "type": "uint8",
+        "scale": 1.0
+      }
+    ]
+  }
+}
