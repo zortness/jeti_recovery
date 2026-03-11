@@ -88,3 +88,5 @@ This repository also includes [ImHex](https://imhex.werwolv.net/) pattern files 
 
 - `jeti_sd_recovery.hexpat`: The master pattern file. When loaded against your raw `sd_dump.img`, it dynamically parses the File Table, the global Dictionary string sectors, and automatically aligns over the extracted multiplexed telemetry records. It includes custom formatting functions to display raw hex bytes as human readable volts, amps, capacities, and strings.
 - Individual component files such as `jeti_dictionary.hexpat`, `jeti_file_table.hexpat`, and `jeti_telemetry.hexpat` are also retained for focused analysis of those specific data structures.
+
+![ImHex Screenshot](https://raw.githubusercontent.com/zortness/jeti_recovery/refs/heads/main/images/imhex_proj.png)
